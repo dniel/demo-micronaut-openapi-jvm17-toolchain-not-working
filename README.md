@@ -8,7 +8,7 @@ a) when the local jdk running gradle, and the toolchain set in the gradle build 
 b) when the local jdk running gradle, and the toolchain set in the gradle build file is DIFFERENT, the openapi is generated in the default location under build kapt3 etc.
 
 ## case 1
-Same JDK running (20) gradle and toolchain set in gradle build (20)
+Same JDK version running (20) gradle and toolchain set in gradle build (20)
 
 ### log output
 ```
@@ -24,7 +24,7 @@ Note: Writing OpenAPI file to destination: /Users/thomas/Development/personal/de
 
 
 ## case 2
-Different JDK running gradle (23) and toolchain in gradle build (20)
+Different JDK version running gradle (23) and toolchain in gradle build (20)
 
 ### log output
 
