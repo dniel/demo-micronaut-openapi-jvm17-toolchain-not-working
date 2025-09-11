@@ -2,7 +2,6 @@
 
 ## description
 I have tried to create a sample project, and while doing so, I think I found the issue causing it.
-demo-openapi-jvm17-toolchain-not-working git:(main) ✗ ./gradlew clean build logJavaVersion
 
 a) when the local jdk running gradle, and the toolchain set in the gradle build file is the same, the openapi is generated in the correct place as specified in application.yaml
 b) when the local jdk running gradle, and the toolchain set in the gradle build file is DIFFERENT, the openapi is generated in the default location under build kapt3 etc.
