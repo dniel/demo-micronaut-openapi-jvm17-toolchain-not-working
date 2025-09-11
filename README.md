@@ -23,7 +23,7 @@ Note: Writing OpenAPI file to destination: /Users/thomas/Development/personal/de
 ```
 
 
-case 2
+## case 2
 Different JDK running gradle (23) and toolchain in gradle build (20)
 
 ### log output
