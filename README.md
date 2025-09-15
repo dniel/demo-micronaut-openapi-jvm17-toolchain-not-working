@@ -7,6 +7,16 @@ a) when the local jdk running gradle, and the toolchain set in the gradle build 
 
 b) when the local jdk running gradle, and the toolchain set in the gradle build file is DIFFERENT, the openapi is generated in the default location under build kapt3 etc.
 
+## Conclusion
+The problem is simple: in both cases the path to the project is defined differently. 
+Most likely. when you use the toolchain, Gradle or Idea launch the project in some 
+other way and therefore the automatic detection of the project location returns a
+different value than you expect.
+
+To get rid of problems with automatic detection of the project location, I recommend 
+always explicitly specifying the path to the project. This will avoid problems with 
+different definitions of the path to the project
+
 ## case 1
 Same JDK version running (20) gradle and toolchain set in gradle build (20)
 
