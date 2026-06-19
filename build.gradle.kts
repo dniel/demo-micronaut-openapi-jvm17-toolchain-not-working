@@ -3,7 +3,7 @@ import io.micronaut.gradle.MicronautRuntime
 plugins {
     kotlin("jvm") version "2.4.0"
     kotlin("kapt") version "2.4.0"
-    id("io.micronaut.application") version "5.0.0"
+    id("io.micronaut.application") version "5.0.1"
 }
 
 version = "0.1"
